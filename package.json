@@ -1,0 +1,35 @@
+{
+  "name": "api-soap-example",
+  "version": "1.0.0",
+  "description": "building a soap api for studying xml request",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "test": "test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensource-pereira/api-soap-example.git"
+  },
+  "keywords": [
+    "soap",
+    "node"
+  ],
+  "author": "sebasttianvelez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opensource-pereira/api-soap-example/issues"
+  },
+  "homepage": "https://github.com/opensource-pereira/api-soap-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "soap": "^0.35.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  }
+}
